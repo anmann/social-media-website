@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/desktopStyle.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+<body>
+    <div class="main-nav">
+    <ul class="nav">
+        <li class="name"><%= info.username %></li>
+        <li><a href="#">Home</a></li>
+    </ul>
+    </div>
+    <h3>Post Something!</h3>
+    <div class="container">
+        <label class="textareaContainer">
+            <form id="postBox" method="post" action="">
+                <textarea rows="4" cols="50" name="post"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </label>
+    </div>
+</body>
+</html>
